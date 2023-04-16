@@ -39,7 +39,8 @@ if original_file.stat().st_size > TARGET_FILE_SIZE:
 
     dt_now = datetime.datetime.now()
 
-    os.mkdir(converted_file_dir)
+    if not os.path.exists(converted_file_dir):
+        os.mkdir(converted_file_dir)
     converted_file = pathlib.Path(
         converted_file_dir + "/" + dt_now.strftime('%Y%m%d_%H%M%S')).with_suffix(".mp4")
 
