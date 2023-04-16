@@ -28,3 +28,5 @@ python3 main.py [音声ファイル名]
 - https://platform.openai.com/docs/api-reference
 - https://dev.classmethod.jp/articles/openai-api-whisper-about-data-limit/
 - https://dev.classmethod.jp/articles/openai-api-chatgpt-tiktoken/
+- https://blog.since2020.jp/ai/chatgpt_api_role/
+- https://dev.classmethod.jp/articles/release-openai-apis-chatgpt-and-whisper/
