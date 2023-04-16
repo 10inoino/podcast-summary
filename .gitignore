@@ -1,0 +1,4 @@
+*.mp3
+*.mp4
+set_api_key_to_env.sh
+.DS_Store
